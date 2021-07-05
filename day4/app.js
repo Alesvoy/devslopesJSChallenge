@@ -25,3 +25,18 @@ function calcArea(length, width) {
 }
 
 console.log(calcArea(20, 15));
+
+// Advanced - Factorial (6, 8, 101, 16, 49)
+function getFactorial(n, res = n) {
+  if (n == 1) {
+    return res;
+  }
+  res = res * (n - 1);
+  return getFactorial(n - 1, res);
+}
+
+console.log(getFactorial(6));
+console.log(getFactorial(8));
+console.log(getFactorial(101));
+console.log(getFactorial(16));
+console.log(getFactorial(49));
