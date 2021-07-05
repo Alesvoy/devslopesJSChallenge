@@ -32,3 +32,18 @@ var strChallenge =
   city[3];
 
 console.log(strChallenge);
+
+// Advanced - String Within String
+// With built in method
+
+var first = "Help";
+var second = "Hello, World!";
+var length;
+
+if (first.length > second.length) {
+  length = first.length - 1;
+} else {
+  length = second.length - 1;
+}
+
+for (let i = 0; i < length; i++) {}
