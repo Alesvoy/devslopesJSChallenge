@@ -3,7 +3,7 @@ var str1 = "Welcome";
 var str2 = "Hello, World!";
 var str3 = "Disaster";
 
-var newStr1 = str1.slice(0, 3);
+var newStr1 = str1.slice(0, 4);
 var newStr2 = str2.slice(0, 6);
 var newStr3 = str3[0];
 
