@@ -1,5 +1,4 @@
 // Part 1 - Taxes
-
 var item1 = 13;
 var item2 = 13;
 var item3 = 13;
@@ -19,3 +18,10 @@ var taxes = priceAfterDiscount * 0.0775;
 var finalPrice = priceAfterDiscount + taxes;
 
 console.log(finalPrice);
+
+// Part 2 - Area
+function calcArea(length, width) {
+  return length * width;
+}
+
+console.log(calcArea(20, 15));
