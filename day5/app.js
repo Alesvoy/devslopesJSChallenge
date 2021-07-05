@@ -19,3 +19,13 @@ var kilograms = 10;
 var pounds = kilograms * 2.205;
 
 console.log(pounds);
+
+// Advanced - Circles (15, 128, 7, 6)
+function circleArea(r) {
+  return 3.1416 * (r * r);
+}
+
+console.log(circleArea(15));
+console.log(circleArea(128));
+console.log(circleArea(7));
+console.log(circleArea(6));
